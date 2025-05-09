@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Safari Park - Tickets</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Safari Park</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="food.html">Food</a></li>
+          <li class="nav-item"><a class="nav-link" href="activities.html">Activities</a></li>
+          <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="tickets.html">Tickets</a></li>
+          <li class="nav-item"><a class="nav-link" href="feedback.html">Feedback</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <header class="ticket-banner">
+    <h1 class="wild-vibe">Get Your Wildy Vibes Tickets!</h1>
+  </header>
+  <section class="container my-5">
+    <h2 class="text-center wild-vibe mb-4">Ticket Options</h2>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card ticket-card shadow">
+          <div class="card-body text-center">
+            <h4 class="card-title wild-vibe">General Admission</h4>
+            <p class="card-text">Access to all areas of the park. Perfect for a full-day adventure!</p>
+            <p><strong>P120.00</strong></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card ticket-card shadow">
+          <div class="card-body text-center">
+            <h4 class="card-title wild-vibe">VIP Safari Pass</h4>
+            <p class="card-text">Includes guided tours, priority access, and a free meal.</p>
+            <p><strong>P250.00</strong></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card ticket-card shadow">
+          <div class="card-body text-center">
+            <h4 class="card-title wild-vibe">Family Pack (4 People)</h4>
+            <p class="card-text">Fun for the whole tribe! Includes discounts and souvenirs.</p>
+            <p><strong>P400.00</strong></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="container my-5">
+    <div class="form-section shadow">
+      <h3 class="wild-vibe text-center mb-4">Book Your Adventure</h3>
+      <form>
+        <div class="row mb-3">
+          <div class="col-md-6">
+            <label for="name" class="form-label">Full Name</label>
+            <input type="text" id="name" class="form-control" placeholder="Enter your full name" required>
+          </div>
+          <div class="col-md-6">
+            <label for="email" class="form-label">Email Address</label>
+            <input type="email" id="email" class="form-control" placeholder="Enter your email" required>
+          </div>
+        </div>
+
+        <div class="row mb-3">
+          <div class="col-md-6">
+            <label for="ticketType" class="form-label">Ticket Type</label>
+            <select id="ticketType" class="form-select" required>
+              <option selected disabled>Select a ticket</option>
+              <option value="general">General Admission - P120</option>
+              <option value="vip">VIP Safari Pass - P250</option>
+              <option value="family">Family Pack - P400</option>
+            </select>
+          </div>
+          <div class="col-md-6">
+            <label for="quantity" class="form-label">Number of Tickets</label>
+            <input type="number" id="quantity" class="form-control" min="1" max="10" value="1" required>
+          </div>
+        </div>
+
+        <div class="mb-3">
+          <label for="date" class="form-label">Select Visit Date</label>
+          <input type="date" id="date" class="form-control" required>
+        </div>
+
+        <div class="text-center">
+          <button type="submit" class="btn btn-success btn-lg wild-vibe">Book Now</button>
+        </div>
+      </form>
+    </div>
+  </section>
+  <footer class="bg-success text-white pt-5 pb-4">
+  <div class="container text-md-left">
+    <div class="row">
+      <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+        <h5 class="text-uppercase fw-bold">Safari Park</h5>
+        <hr class="mb-3 mt-0 d-inline-block mx-auto" style="width: 60px; background-color: #ffffff; height: 2px" />
+        <p>
+          Dive into the wild! Experience thrilling safaris, nature's beauty, and unforgettable family adventures.
+        </p>
+      </div>
+      <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+        <h5 class="text-uppercase fw-bold">Quick Links</h5>
+        <hr class="mb-3 mt-0 d-inline-block mx-auto" style="width: 60px; background-color: #ffffff; height: 2px" />
+        <p><a href="index.html" class="text-white text-decoration-none">Home</a></p>
+        <p><a href="activities.html" class="text-white text-decoration-none">Activities</a></p>
+        <p><a href="tickets.html" class="text-white text-decoration-none">Tickets</a></p>
+        <p><a href="feedback.html" class="text-white text-decoration-none">Feedback</a></p>
+      </div>
+      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-4">
+        <h5 class="text-uppercase fw-bold">Contact</h5>
+        <hr class="mb-3 mt-0 d-inline-block mx-auto" style="width: 60px; background-color: #ffffff; height: 2px" />
+        <p><i class="bi bi-house-door-fill me-2"></i> Safari Lane, Wilderness City, Botswana</p>
+        <p><i class="bi bi-envelope-fill me-2"></i> info@safaripark.co.bw</p>
+        <p><i class="bi bi-telephone-fill me-2"></i> +267 123 4567</p>
+        <p><i class="bi bi-phone-fill me-2"></i> +267 765 4321</p>
+      </div>
+
+    </div>
+  </div>
+  <div class="text-center mt-4">
+    <p class="mb-0">&copy; 2025 Safari Park | Wildy made with ❤️ in Botswana</p>
+  </div>
+</footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

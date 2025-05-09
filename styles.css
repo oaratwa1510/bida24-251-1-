@@ -1,0 +1,132 @@
+
+ 
+    .card-img-top {
+      object-fit: cover;
+      height: 180px;
+    }
+
+    
+    .ticket-banner {
+      height: 300px;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-shadow: 2px 2px 5px #000;
+    }
+
+    .ticket-banner h1 {
+      font-size: 3rem;
+      font-weight: bold;
+    }
+
+    .ticket-card {
+      border-radius: 15px;
+      transition: transform 0.3s ease;
+    }
+
+    .ticket-card:hover {
+      transform: scale(1.05);
+    }
+
+    .form-section {
+      background-color: #f5f5f5;
+      padding: 40px;
+      border-radius: 15px;
+    }
+
+    .wild-vibe {
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      color: #2e7d32;
+    }
+
+    
+    .feedback-banner {
+      background: url('images/save\ img\ wide.jpeg') no-repeat center center/cover;
+      height: 280px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+    }
+
+    .feedback-banner h1 {
+      font-size: 3rem;
+      font-weight: bold;
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+    }
+
+    .form-box {
+      background-color: #f0fff4;
+      padding: 40px;
+      border-radius: 15px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    .wild-heading {
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      color: #2e7d32;
+    }
+
+    .btn-wild {
+      background-color: #43a047;
+      color: white;
+      font-weight: bold;
+    }
+
+    .btn-wild:hover {
+      background-color: #2e7d32;
+    }
+
+    .gallery-img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+    .gallery-title {
+      margin-top: 20px;
+      margin-bottom: 40px;
+    }
+
+    .feedback-banner {
+      background: url('images/save\ img\ wide.jpeg') no-repeat center center/cover;
+      height: 280px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+    }
+
+    .feedback-banner h1 {
+      font-size: 3rem;
+      font-weight: bold;
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+    }
+
+    .form-box {
+      background-color: #f0fff4;
+      padding: 40px;
+      border-radius: 15px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    .wild-heading {
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      color: #2e7d32;
+    }
+
+    .btn-wild {
+      background-color: #43a047;
+      color: white;
+      font-weight: bold;
+    }
+
+    .btn-wild:hover {
+      background-color: #2e7d32;
+    }
+  
+ 
+
